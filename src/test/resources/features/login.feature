@@ -1,4 +1,4 @@
-@smoke @Regression @login
+@Regression @login
 Feature:
   User Story:
   As a user, I should be able to login with correct credentials to different accounts and
@@ -10,7 +10,7 @@ Feature:
     Given user is on the library login page
 
 
-  @smoke @librarian @employee
+  @librarian @employee
   Scenario: Login as a librarian
    # Given user is on the library login page
     When user enters librarian username
@@ -24,7 +24,7 @@ Feature:
     And user enters student password
     Then user should see dashboard
 
-  @admin @employee @smoke
+  @admin @employee
   Scenario: Login as an admin
     # Given user is on the library login page
     When user enters admin  username

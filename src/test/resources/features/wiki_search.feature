@@ -2,6 +2,8 @@ Feature: Wikipedia Search Functionality and verifications
 
   Background: User is on Wikipedia home page
 
+
+  @smoke
   Scenario: Wikipedia Search Functionality and verifications
    # Given User is on Wikipedia home page
     When User types Steve Jobs in the wiki search box
@@ -10,7 +12,7 @@ Feature: Wikipedia Search Functionality and verifications
 
 
 
-    @smoke
+
   Scenario: Wikipedia Search Functionality and verifications
     #Given User is on Wikipedia home page
     When User types "Steve Jobs" in the wiki search box
